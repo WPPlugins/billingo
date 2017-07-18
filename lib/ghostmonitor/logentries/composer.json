@@ -1,0 +1,16 @@
+{
+    "name": "ghostmonitor/logentries",
+    "description": "Ghostmonitor Logentries Fork",
+    "authors": [
+        {
+            "name": "Ghostmonitor",
+            "email": "system@ghosmonitor.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Logentries\\": "."
+        }
+    },
+    "minimum-stability": "dev"
+}

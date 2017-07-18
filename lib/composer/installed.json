@@ -1,0 +1,200 @@
+[
+    {
+        "name": "symfony/options-resolver",
+        "version": "2.7.x-dev",
+        "version_normalized": "2.7.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/options-resolver.git",
+            "reference": "86d19031b2bc078c939473edef196a434a727d23"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/options-resolver/zipball/86d19031b2bc078c939473edef196a434a727d23",
+            "reference": "86d19031b2bc078c939473edef196a434a727d23",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "time": "2016-06-28 06:24:06",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\OptionsResolver\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony OptionsResolver Component",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "config",
+            "configuration",
+            "options"
+        ]
+    },
+    {
+        "name": "firebase/php-jwt",
+        "version": "v3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/firebase/php-jwt.git",
+            "reference": "fa8a06e96526eb7c0eeaa47e4f39be59d21f16e1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/firebase/php-jwt/zipball/fa8a06e96526eb7c0eeaa47e4f39be59d21f16e1",
+            "reference": "fa8a06e96526eb7c0eeaa47e4f39be59d21f16e1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-07-22 18:31:08",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Firebase\\JWT\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Neuman Vong",
+                "email": "neuman+pear@twilio.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Anant Narayanan",
+                "email": "anant@php.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+        "homepage": "https://github.com/firebase/php-jwt"
+    },
+    {
+        "name": "voov/billingo-api-connector",
+        "version": "dev-curl",
+        "version_normalized": "dev-curl",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/voov/Billingo-API-Connector.git",
+            "reference": "52a2aaecbac41cbf25858588fa017409d4d57b42"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/voov/Billingo-API-Connector/zipball/52a2aaecbac41cbf25858588fa017409d4d57b42",
+            "reference": "52a2aaecbac41cbf25858588fa017409d4d57b42",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "firebase/php-jwt": "^3.0",
+            "php": ">=5.4.0",
+            "symfony/options-resolver": "2.7.*"
+        },
+        "time": "2016-05-03 10:16:33",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Billingo\\API\\Connector\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Daniel Fekete",
+                "email": "daniel.fekete@voov.hu"
+            }
+        ],
+        "description": "Billingo API Connector"
+    },
+    {
+        "name": "voov/billingo-plugin-helper",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/octonull/Plugin-Helper.git",
+            "reference": "635a1b12ad843425b68cd3360da0e4be6c6e19fa"
+        },
+        "require": {
+            "voov/billingo-api-connector": "dev-curl"
+        },
+        "time": "2016-09-16 21:43:48",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Billingo\\Plugin\\Helper\\": "src"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Andras Hegedus",
+                "email": "heg.andras@gmail.com"
+            }
+        ],
+        "description": "Billingo API Helper"
+    },
+    {
+        "name": "ghostmonitor/logentries",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ghostmonitor/le_php.git",
+            "reference": "577ed58952cab0d575a0e322a3119f0b6552f5f3"
+        },
+        "time": "2016-02-29 17:37:55",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Logentries\\": "."
+            }
+        },
+        "authors": [
+            {
+                "name": "Ghostmonitor",
+                "email": "system@ghosmonitor.com"
+            }
+        ],
+        "description": "Ghostmonitor Logentries Fork"
+    }
+]

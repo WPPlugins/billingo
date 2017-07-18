@@ -1,0 +1,20 @@
+{
+  "name": "voov/billingo-plugin-helper",
+  "description": "Billingo API Helper",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andras Hegedus",
+      "email": "heg.andras@gmail.com"
+    }
+  ],
+  "require": {
+    "voov/billingo-api-connector": "dev-curl"
+  },
+  "autoload": {
+    "psr-4": {
+      "Billingo\\Plugin\\Helper\\": "src"
+    }
+  }
+}
